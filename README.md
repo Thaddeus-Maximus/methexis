@@ -7,19 +7,19 @@ Thoughts and engagement welcomed.
 
 # Outline
 - A survey of the modern field
- - Technological facts
- - Sociopolitical facts
- - Critiques and feelings
+    - Technological facts
+    - Sociopolitical facts
+    - Critiques and feelings
 - A survey of teachings
- - Early church fathers
- - Encyclicals
- - Others
+    - Early church fathers
+    - Encyclicals
+    - Others
 - Distilling principles that should guide technology
- - Usage
- - Proliferation
- - Development
+    - Usage
+    - Proliferation
+    - Development
 - Projects which could be embarked on
- - A new amish? 
+    - A new amish? 
 
 # Works
 
