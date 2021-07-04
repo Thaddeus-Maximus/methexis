@@ -6,10 +6,7 @@ This text is not aimed at pontificating or producing particularly new profound i
 Thoughts and engagement welcomed.
 
 # Outline
-- A survey of the modern field
-    - Technological facts
-    - Sociopolitical facts
-    - Critiques and feelings
+- A brief introduction to the modern crossroads
 - A survey of teachings
     - Early church fathers
     - Encyclicals
@@ -18,8 +15,9 @@ Thoughts and engagement welcomed.
     - Usage
     - Proliferation
     - Development
-- Projects which could be embarked on
+- Projects & Movements which could be embarked on
     - A new amish? 
+    - META-STEM (Morals/Ethics/Theology/Arts) rather than STEAM
 
 # Works
 
@@ -29,6 +27,7 @@ Thoughts and engagement welcomed.
 - Rerum Novarum by Leo XIII
 - Cappadocian House Proposal by Joel Barstad
 - Ancient & Postmodern Christianity (Essays in Honor of Thomas Oden)
+- The Abolition of Man by C.S. Lewis
 
 ## Decent Works; palatable secular commentary
 - Coming Apart by Charles Murray
