@@ -1,64 +1,21 @@
-\documentclass[10pt,letterpaper,openany]{book}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{outlines}
-\usepackage{amsmath}
-\usepackage{tikz}
-\usepackage{circuitikz}
-\usepackage{svg}
+\documentclass[letterpaper]{article}
+
+
+\usepackage{fontspec}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\newfontfamily{\greekfont}{CMU Serif}
+\newfontfamily{\greekfontsf}{CMU Sans Serif}
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{greek}
 
 \usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{caption}
-\usepackage{subcaption}
-\DeclareCaptionOptionNoValue{centering}{\centering} % Make sure everything is centered in subs
-\captionsetup[sub]{centering}
 
-\usepackage{multirow}
-\usepackage{cancel}
-\usepackage{float}
-
-\usepackage{parskip}
-
-\usepackage{slantsc,lmodern}
-
-\usepackage{pgfplotstable,booktabs}
-\usepackage{textcomp}
-\usepackage{gensymb}
-
-\usepackage{paralist}
+%\usepackage{slantsc,lmodern}
 
 \usepackage[paper=letterpaper,margin=1in]{geometry}
-
-\usepackage{etoolbox}
-
-\usepackage{imakeidx}
-\makeindex
-
-\usepackage{mdframed}
-\mdfdefinestyle{qbox}{
-  frametitlebackgroundcolor   =black!15,
-    frametitlerule            =false,
-    backgroundcolor     = lightgray,
-    innertopmargin      =\topskip,
-    innerbottommargin   =\topskip,
-}
-\newmdenv[style=qbox]{qbox}
-
-%\addtolength{\oddsidemargin}{-.875in}
-%\addtolength{\evensidemargin}{-.875in}
-%\addtolength{\textwidth}{1.75in}
-
-%\addtolength{\topmargin}{-.875in}
-%\addtolength{\textheight}{1.75in}
-
-% Centers all the floats
-\makeatletter
-\g@addto@macro\@floatboxreset\centering
-\makeatother
-
-\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
-
-\newtheorem{theorem}{Theorem}
 
 \begin{document}
 
@@ -76,12 +33,12 @@
   \nbvspace[1]
   \Huge
   {\nbtitlestretch\huge
-    METHEXIS}
+    METHEXIS | ΜΕΘΕΞΙΣ}
 
   \nbvspace[1]
   \normalsize
-  REAPPLYING ANCIENT APPROACHES TO TECHNOLOGY\\
-  
+  REDISCOVERING THE ANCIENT AND CATHOLIC APPROACH TO TECHNOLOGY\\
+
   \nbvspace[1]
   \small BY\\
   \Large THADDEUS HUGHES\\
@@ -106,7 +63,7 @@
 % Theology (Teleology?)
 % Arts
 
-\chapter{Motivation}
+\section{Motivation}
 
 The modern (western) world works predominantly on enlightenment principles. That individuals exist as atomic without any sort of rooting in their pasts that gives them values on which to stand. That morality can and ought to be continuously rediscovered, rather than passed down. That 'innovation' and 'scientific thinking' consistently leads in a profitable path.
 
@@ -124,15 +81,19 @@ As Leo XIII writes in \textit{Rerum Novarum},
   If human society is to be healed now, in no other way can it be healed save by a return to Christian life and Christian institutions. When a society is perishing, the wholesome advice to give to those who would restore it is to call it to the principles from which it sprang; for the purpose and perfection of an association is to aim at and to attain that for which it is formed, and its efforts should be put in motion and inspired by the end and object which originally gave it being. Hence, to fall away from its primal constitution implies disease; to go back to it, recovery.
 \end{quote} [para. 27]
 
-\chapter{Metaphysics}
+\section{Metaphysics}
 
-\section{The Goal of Economics (οίκονέμoμαι) is the Household (οίκος)}
+\subsection{The Aim of Economics (οίκονέμoμαι) is the Household (οίκος)}
 
-\section{Relationship is Reality}
+"Economics" comes from the greek word "οίκονέμoμαι" which means "household management". And even in this, the household still has an aim: for the benefit of its members both materially and spiritually. The essential difference between managing a household and managing oneself is the \textit{social} aspect of it.
 
-\chapter{Principles}
+%% Hey, there should be some Aristotle's politics here, right?
 
-\section{Subsidiarity}
+\subsection{Relationship is Reality}
+
+\section{Principles}
+
+\subsection{Subsidiarity}
 
 \begin{quote}
   Neither must it be supposed that the solicitude of the Church is so preoccupied with the spiritual concerns of her children as to neglect their temporal and earthly interests. Her dsire is that the poor, for example, should rise above poverty and wretchedness, and better their condition in life; and for this she makes a strong endeavor.
@@ -140,9 +101,9 @@ As Leo XIII writes in \textit{Rerum Novarum},
 
 Even in this, Leo XIII uses very nuanced language. It would be one thing to say "the poor should not be wretched". It is another to say that the "poor should rise above poverty... and better their condition.".  It is quite clear that the betterment of their condition is not to be imposed upon them externally (even if it is their desire) but is to be derived from their own works.
 
-\section{Non-alienation}
+\subsection{Non-alienation}
 
-\section{Soul and Body}
+\subsection{Soul and Body}
 
 There are two main heresies as regards the relationship between soul and body: one is to accept the body, and to reject the soul. This is \textit{materialism}- all that matters (or even, is) is the material realm we can experience with our five senses. Over the past century or more, this heresy has gained significant traction, and is the basis of many influential ideologies, most notably Communism. The word itself has a negative connotation in our society, associated with accumulation of goods, but this is not quite broad enough- accumulation of mere sensory experiences- another form of hedonism: this too is materialist.
 
@@ -150,9 +111,9 @@ The other heresy is in our time is not as prevalent, although in the early centu
 
 The orthodox Christian understanding has always been one of dualism: there exists both a spiritual realm and a physical realm- they interplay, and both are important places not to be neglected. The field of \textit{Theology of the Body} has borne great fruit towards understanding that the soul and body are not doomed to conflict.
 
-\chapter{Projects}
+\section{Projects}
 
-\section{META-STEM}
+\subsection{META-STEM}
 
 Many might be familiar with the modern acronym of "STEM" (Science, Technology, Engineering, Mathematics). In some regards, this is a useful collection of loosely related disciplines. In other regards, drawing a line about these and packaging them together suggests that these fields have more to do with each other than they do with arts or philosophy. In practice, this is of course folly- many engineers pull loosely from these other disciplines while working closely with graphic design artists. Are 'social sciences' sciences? Aren't they better connected to theology, morality, and ethics?
 
@@ -164,7 +125,7 @@ I'd propose a new acronym, or a prefix: META-STEM. The META standing for Manual 
 
 If your stomach churns at the word "Theology" you could replace it with "Teleology". These are, essentially, the same thing: the study of the divine is the study of our end goals.
 
-\section{Proliferation of Manufacturing Technologies}
+\subsection{Proliferation of Manufacturing Technologies}
 
 The essential problem that must be wrestled with is this: the short-run monetary costs of utilizing distributed, ethical manufacturing will always be higher than centralized, unethical manufacturing.
 
@@ -172,7 +133,7 @@ The essential problem that must be wrestled with is this: the short-run monetary
 
 \iffalse
 
-\section{Some Critiques}
+\subsection{Some Critiques}
 
 Bear in mind that these critiques are cries for help, rediscovery, and further analysis. Critiques are not prescriptive- they are flags for the doctor to come in. Yelling in pain is important, but is by no means curative.
 
@@ -180,7 +141,7 @@ Bear in mind that these critiques are cries for help, rediscovery, and further a
 %% "In order to get our message before the public with some chance of making a lasting impression, we've had to kill people."
 
 
-\subsection{Selections from ISAIF}
+\subsubsection{Selections from ISAIF}
 
 The source of these first critiques is a most unfortunate one. I do not uphold these writings as from a genius, but as from someone who was abused by society yet intelligent enough to articulate why and how. The lack of constructive action that has come about from his actions and words speaks to their lack of serious substance, and perhaps, their hyperbolic nature. I believe he most certainly has overplayed his hand. I pray that God have mercy on his soul. But I would be amiss if I did not present his empassioned words as exemplars of the thoughts that are racing through many people's minds- even if on an unconscious level, or in different words.
 
@@ -204,17 +165,17 @@ For many if not most people, surrogate activities are less satisfying than the p
 
 \fi
 
-\section{A Survey of Teachings}
+\subsection{A Survey of Teachings}
 
-\subsection{E.F. Schumacher's Small is Beautiful}
+\subsubsection{E.F. Schumacher's Small is Beautiful}
 
 E.F. Schumacher, author of /textit{Small Is Beautiful}, was statistician, economist, a dedicated atheist, but converted to Catholicism. He also helped found the Intermediate Technology Development Group which today operates as Practical Action. \href{https://www.religion-online.org/article/small-is-beautiful-and-so-is-rome-surprising-faith-of-e-f-schumacher/}{Charles Fager writes}:
 
 \begin{quote}
-... one of the most frequently cited chapters [of \textit{Small is Beautiful}], ``Buddhist Economics", almost made it appear as if he were deeply involved in Eastern religions. But wasn't this chapter, I inquired, really more informed by the Catholic writings and thinkers he mentioned so frequently elsewhere in the book - the papal encyclicals, Newman, Gilson and, above all, Thomas Aquinas?
+... one of the most frequently cited sections [of \textit{Small is Beautiful}], ``Buddhist Economics", almost made it appear as if he were deeply involved in Eastern religions. But wasn't this section, I inquired, really more informed by the Catholic writings and thinkers he mentioned so frequently elsewhere in the book - the papal encyclicals, Newman, Gilson and, above all, Thomas Aquinas?
 \end{quote}
 
-Indeed, Schumacher even admits immediately before the iconic chapter, "The choice of Buddhism for this purpose is purely incidental; the techings of Christianity, Islam, or Judaism could have been used just as well." [p. 52]
+Indeed, Schumacher even admits immediately before the iconic section, "The choice of Buddhism for this purpose is purely incidental; the techings of Christianity, Islam, or Judaism could have been used just as well." [p. 52]
 
 %% Side takeaway from this article, worth thinking more about: Buddhism for Schumacher was an entry point back into Christianity from Atheism insofar as it let him cast aside his modern western antichristian biases.
 %% And if I were to go around England passing myself off as a Buddhist, then I would also be thinking that everyone else around me was stupid, because they'd all got the wrong religion. They're all unenlightened, while I'm the one who has the truth. And there are many people in the West these days going around acting like quasi-Orientals, with dreadful results.
@@ -303,17 +264,17 @@ When people ask for education, they normally mean something more than mere train
 
 This text is not aimed at pontificating or producing particularly new profound ideas. The aim of this text is to grapple with the existing ideas and begin putting them into practice.
 
-\section{Principles}
+\subsection{Principles}
 
 When we consider principles, we must consider the various stages that a technology goes through: development, proliferation, usage, and obsolecense. For a given technology, its particular units may go through these phases at different rates- some being thrown out before new regions recieve the technology.
 
-\subsection{Subsidiarity}
+\subsubsection{Subsidiarity}
 
-\subsection{Keeping Humanity in the Picture}
+\subsubsection{Keeping Humanity in the Picture}
 
-\section{A Survey of the Modern Condition}
+\subsection{A Survey of the Modern Condition}
 
-\section{Projects}
+\subsection{Projects}
 
 
 
