@@ -6,18 +6,10 @@ This text is not aimed at pontificating or producing particularly new profound i
 Thoughts and engagement welcomed.
 
 # Outline
-- A brief introduction to the modern crossroads
-- A survey of teachings
-    - Early church fathers
-    - Encyclicals
-    - Others
-- Distilling principles that should guide technology
-    - Usage
-    - Proliferation
-    - Development
-- Projects & Movements which could be embarked on
-    - A new amish? 
-    - META-STEM (Morals/Ethics/Theology/Arts) rather than STEAM
+- Introduction
+- Underlying metaphysics
+- Indentifying principles
+- Project proposal(s)
 
 # Works
 
@@ -25,6 +17,8 @@ Thoughts and engagement welcomed.
 - Ad Thallasium 60 by St. Maximus the Confessor
 - Small is Beautiful by E.F. Schumacher
 - Rerum Novarum by Leo XIII
+-- Centesimus Annus
+-- Quadragesimo Anno
 - Cappadocian House Proposal by Joel Barstad
 - Ancient & Postmodern Christianity (Essays in Honor of Thomas Oden)
 - The Abolition of Man by C.S. Lewis
@@ -34,12 +28,6 @@ Thoughts and engagement welcomed.
 - How To Watch TV News by Neil Postman
 - Everything I Want To Do is Illegal by Joel Salatin
 - To Engineer is Human by Henry Petroski
-
-## Edgelord-tier Works, suitable for making hyperbole
-- Industrial Society and its Future by Theodore Kacynski
-- Archeofuturism by Guillame Faye
-- Ride the Tiger by Julius Evola
-- Edward Abbey's works
 
 ## Additional references
 
